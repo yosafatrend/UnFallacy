@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMateri"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:background="?android:attr/selectableItemBackground"
+        style="@style/CardView.Light"
+        app:cardCornerRadius="20dp">
+    
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_materi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#658ECC">
+
+            <TextView
+                android:id="@+id/tvMateri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Ad Hominem"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_baseline_location_searching_24"
+                android:tint="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="21dp"
+                android:src="@drawable/ic_baseline_person_24"
+                android:tint="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

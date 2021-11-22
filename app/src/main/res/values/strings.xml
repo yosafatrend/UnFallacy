@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UnFallacy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quotes_dashboard">If 50 million believe in a fallacy, it is still a fallacy
+        -Prof Samuel Warren Carey</string>
+    <string name="ad_hominem_desc">Ad hominem adalah logical fallacy atau sesat pikir paling terkenal yang sering muncul karena kurangnya pengetahuan atau keterampilan penalaran.<br /> <br />
+        Dalam kasus ad hominem, mereka mencoba mendiskreditkan argumen lawan dengan mengkritik penampilan atau asal usulnya, yang tentu aja gak ada hubungannya dengan perdebatan tersebut.<br /> <br />
+        Dalam kasus ad hominem, mereka mencoba mendiskreditkan argumen lawan dengan mengkritik penampilan atau asal usulnya, yang tentu aja gak ada hubungannya dengan perdebatan tersebut.</string>
+</resources>

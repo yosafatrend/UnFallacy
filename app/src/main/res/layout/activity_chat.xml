@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EFEFEF"
+    tools:context=".ChatActivity">
+
+    <LinearLayout
+        android:id="@+id/ln_epilog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#009EF8">
+
+        <TextView
+            android:id="@+id/tvEpilog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ini adalah sebuah epilog"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/undraw_conversation"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ln_epilog"
+        android:id="@+id/rvChat"
+        android:layout_marginTop="16dp"
+        android:layout_above="@+id/rlMsg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rlMsg">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_option"
+            tools:listitem="@layout/list_option_item"/>
+    </RelativeLayout>
+
+</RelativeLayout>

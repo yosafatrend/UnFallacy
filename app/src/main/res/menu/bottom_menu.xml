@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_materi"
+        android:icon="@drawable/ic_book"
+        android:title="Materi" />
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/ic_question_answer"
+        android:title="Quiz" />
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_receipt"
+        android:title="Berita" />
+</menu>
